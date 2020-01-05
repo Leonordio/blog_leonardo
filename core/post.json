@@ -16,5 +16,14 @@
             "criceto",
             "prete"
         ]
+    },
+    {
+        "title": "Nuovo Post",
+        "content": "Contenuti Stupendi!",
+        "tag": [
+            "stupendo",
+            "post",
+            "contenuto"
+        ]
     }
 ]

@@ -3,8 +3,9 @@
     <?php include 'modules/header.php'; ?>
 
     <!-- Content -->
-    <div class="mt-3 d-flex justify-content-center align-items-center" style="height: 75vh;">
-        <div class="card col-10">
+    
+    <div class="mt-5 d-flex justify-content-center align-items-center" style="height: 75vh;">
+        <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Crea un nuovo post</h5>
                 <p class="card-text">Scrivi il tuo post, dagli un titolo e tagga i tuoi contenuti</p>
@@ -29,7 +30,7 @@
 
         </div>
     </div>
-    </div>
+    
 
 
     <footer>

@@ -25,7 +25,7 @@
                         <h3 class="mt-3">
                             <!-- Per ogni post genero anche un bottone "elimina" per cancellare il post inserito dal file JSON. -->
                            <?php if (isLogged()) {?>
-                            <a class="btn btn-danger my-2 p-0 mr-3" role="button" href="index.php?title=<?php echo $post['title'] ?>"> x </span></a>
+                            <a class="btn my-2 p-0 mr-3" role="button" href="index.php?title=<?php echo $post['title'] ?>"> <img style="height: 20px; width: 20px" src="assets/X.png"> </span></a>
                            <?php } ?>
                             <?php echo $post['title'] ?>
                         </h3>

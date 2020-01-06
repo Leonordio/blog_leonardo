@@ -19,6 +19,7 @@
 <body>
     <header>
 
+
         <!-- Navbar -->
 
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FFBF00;">
@@ -50,7 +51,10 @@
                         <a class="btn btn-warning my-2 px-5 mr-3" role="button" href="post.php"><span style="color: white">Post</span></a>
                         <a class="btn btn-danger my-2 px-5 mr-3" role="button" href="logout.php">Logout</a>
                     <?php } else { ?>
-                        <a class="btn btn-warning px-5  mr-3" role="button" href="login.php">Login</a>
+
+                        <!-- Trigger with a button -->
+                        <a class="btn btn-warning px-5  mr-3" role="button" href="login.php" data-toggle="modal" data-target="#myModal">Login</a>
+
                     <?php } ?>
 
                 </div>

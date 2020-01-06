@@ -67,11 +67,7 @@
             </table>
         </div>
     </div>
-
-    <footer>
-        <?php include 'modules/footer.php'; ?>
-    </footer>
-
+    
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 
 <?php
-require_once "core/poster.php";
 require_once 'view/post.php';
+require_once "core/poster.php";
 ?>
 
 <?php
@@ -18,4 +18,3 @@ if (isset($_POST['title'])) {
 
           }
 }
-?>
